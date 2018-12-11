@@ -1,0 +1,15 @@
+.myTitle {
+	color:white;
+    margin-top: 100px; /*Adds 100 pixels between this div and the one above it*/
+    margin-bottom: 50px; /*Adds 50 pixels between this div and the one below it*/
+    text-align: center; /*Brings content to the middle of the display*/
+}
+
+.myContent {
+    background-color: rgba(255,255,255,.5); /*Sets background to white and makes it 50% transparent*/
+    padding-top: 50px; /*Extends div 20 pixels upwards*/
+    padding-right: 50px; /*Extends div 20 pixels to the right */
+    padding-left: 50px; /*Extends div 20 pixels to the left*/
+    max-width: 2000px; /*Makes max width of div a thousand pixels*/
+    margin: auto; /*Centers div content*/
+}
