@@ -41,8 +41,8 @@ shinyServer(function(input, output, session) {
    }
 
 
-	pos.words=scan('C:\\Users\\Kunal Dhariwal\\Desktop\\Analysis\\positive-words.txt', what='character',comment.char=';')
-	neg.words=scan('C:\\Users\\Kunal Dhariwal\\Desktop\\Analysis\\negative-words.txt', what='character',comment.char=';')
+	pos.words=scan('Your path', what='character',comment.char=';')
+	neg.words=scan('Your path', what='character',comment.char=';')
 
 	wordDatabase<-function()
 	{
